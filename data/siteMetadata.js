@@ -2,12 +2,11 @@ const siteMetadata = {
   title: `Zencoder Online`,
   author: 'Steven Rugg',
   headerTitle: 'Zencoder | Online',
-  description:
-    'Steven is a Full-Stack Developer who enjoys working more in the Front-End. He could also be described as a Unicorn, for his diverse skillset includes deft implementation of UI/UX, Feature/Product Design, DevOps, SysAdmin & Machine Learning/Data Science applications.',
+  description:'✨💻👨‍💻 Steven Rugg is a unicorn 🦄. UI/UX, DevOps & Design are all part of his diverse skillset. He enjoys frontend work the most. This blog is his corner of the WWW. 👨‍💻💻✨',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://zencoder.online',
-  siteRepo: 'https://github.com/stevenrugg/extreme-eureka',
+  siteRepo: 'https://github.com/stevenrugg/supreme-eureka',
   rss: 'https://zencoder.online/feed.xml',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
