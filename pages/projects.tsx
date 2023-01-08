@@ -14,16 +14,16 @@ export default function Projects() {
             Projects
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            A collection of projects I've worked on.
+            A collection of projects I've created.
           </p>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            PS : I'm still designing this page, please visit my{' '}
-            <Link href="https://github.com/reubence" passHref>
+            Feel free to contact me with any project idea you have.{' '}
+            <Link href="https://github.com/stevenrugg" passHref>
               <span className="company font-bold text-primary-500 hover:cursor-pointer">
                 GitHub
               </span>
             </Link>{' '}
-            for better understanding of my work or skills.
+            I contribute to open-source projects.
           </p>
         </div>
         <div className="container py-12">
