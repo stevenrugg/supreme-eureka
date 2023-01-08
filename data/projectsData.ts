@@ -1,15 +1,15 @@
 const projectsData = [
   {
-    title: 'Branding',
+    title: 'C# Calculator',
     description:
-      'This project is a fully responsive & complex marketing website with smooth animations built with Next.js & Framer-Motion.',
+      'This calculator adds, subtracts, multiplies, divides, roots and provides exponation up to 10^7 are included.  ',
     imgSrc: '/static/images/projects/Branding.png',
-    href: 'https://github.com/reubence/awwards-website-recreation',
+    href: 'https://github.com/stevenrugg/calculator',
   },
   {
-    title: 'Fin-Tech',
+    title: 'Animated Animals',
     description:
-      'An enterprise resource planning software to manage daily processes including Accounting, Invoice Generation & Tax Filing. It was built to be fully responsive using Next.js & Supabase and aims to automate various processes and enhance productivity of employeess.',
+      'ES6 JavaScript, HTML5 & CSS3 come together to make a great animation library. Map the rainbow over any shape. Shapes are animated using CSS3 & Javascript animations. Colors are mapped over auto-generated SVG segments of user defined shapes.' 
     imgSrc: '/static/images/projects/FinTech.png',
     href: 'https://github.com/reubence/ERP',
   },
