@@ -1,15 +1,15 @@
 const educationData = [
   {
-    title: 'Data Science Engineering',
-    company: 'NMIMS University',
-    location: 'Mumbai, India',
-    range: 'Jul 2017 - Apr 2021',
-    url: 'https://www.nmims.edu/',
-    text1: 'Graduated with CGPA of 3.2',
+    title: 'BBA in Logistics & Global Supply Chain Management',
+    company: 'University of Alaska',
+    location: 'Anchorage, AK',
+    range: 'May 2006 - June 2010',
+    url: 'https://www.uaa.edu/',
+    text1: 'Graduated with CGPA of 3.82.',
     text2:
-      'Spent 4 years learning and mastering Natural Language Processing (NLP), Machine Learning, Statistics and Programming.',
+      'Bachelor of Business Administration with emphasis in Logistics and Global Supply Chain Management',
     text3:
-      'Developed functions for automatically extracting important elements from reports using BioBERT and Regex.',
+      'Developed turn-by-turn GPS driving application that would route the user based upon input address from parcels the user was carrying. The application routed the users avoiding as many left turns as possible. Thus, saving fuel and reducing emissions.',
   },
 ]
 

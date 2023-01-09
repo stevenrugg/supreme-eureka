@@ -15,7 +15,7 @@ const experienceData = [
     location: 'Woodinville, WA',
     range: 'May 2014 - July 2014',
     url: 'http://www.sunsauna.com',
-    text1: `SunSauna is a local Washington company that builds and install sun saunas. SunSauna® builds saunas with neodymium light sources and far-infrared heating elements.`,
+    text1: `SunSauna is a local Washington company that builds and installs sun saunas. SunSauna® builds saunas with neodymium light sources and far-infrared heating elements.`,
     text2:
       'Neodymium lighting and far-infrared heading trick the body into thinking its under natural sunlight. SunSauna® lighting has been clinically proven to provide the light necessary for your body to produce vitamin D. It can also help with SAD (seasonal affective disorder)',
   },
