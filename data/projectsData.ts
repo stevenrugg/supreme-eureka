@@ -1,9 +1,9 @@
 const projectsData = [
   {
-    title: 'Windows Calculator',
+    title: 'C# Calculator',
     description:
-      'Coded in C#, a working calculator that adds, subtracts, multiplies, divides, roots via Sqrt() and can calculate exponation up to 10^7. GUI coded using .NET Windows.Forms and Xamarin',
-    imgSrc: '/static/images/projects/calculator.jpg',
+      'This calculator adds, subtracts, multiplies, divides, roots and provides exponation up to 10^7 are included.  ',
+    imgSrc: '/static/images/projects/Branding.png',
     href: 'https://github.com/stevenrugg/calculator',
   },
   {
