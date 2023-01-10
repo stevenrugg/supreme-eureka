@@ -16,15 +16,17 @@ export default function Projects() {
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             A collection of projects I've created.
           </p>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Feel free to contact me with any project idea you have.{' '}
-            <Link href="https://github.com/stevenrugg" passHref>
-              <span className="company font-bold text-primary-500 hover:cursor-pointer">
-                GitHub
-              </span>
-            </Link>{' '}
-            I contribute to open-source projects.
-          </p>
+          <div className="py-1">
+            <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+              Feel free to contact me with any project idea you have.{' '}
+              <Link href="https://github.com/stevenrugg" passHref>
+                <span className="company font-bold text-primary-500 hover:cursor-pointer">
+                  GitHub
+                </span>
+              </Link>{' '}
+              <span className="py-1">I contribute to open-source projects.</span>
+            </p>
+          </div>
         </div>
         <div className="container py-12">
           <div className="-m-4 flex flex-wrap">

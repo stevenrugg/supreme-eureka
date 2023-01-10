@@ -11,8 +11,8 @@ const ContentSecurityPolicy = `
   media-src 'none';
   connect-src *;
   font-src 'self' fonts.gstatic.com;
-  frame-src giscus.app;
-  script-src google.com
+  frame-src 'self' giscus.app;
+  script-src 'self' google.com;
 `
 
 const securityHeaders = [
@@ -72,7 +72,7 @@ module.exports = withBundleAnalyzer({
   },
   webpack: (config, { dev, isServer }) => {
     config.module.rules.push({
-      test: /\.(apng|png|jpe?g|gif|mp4|webp)$/i,
+      test: /\.(png|jpe?g|gif|mp4)$/i,
       use: [
         {
           loader: 'file-loader',
