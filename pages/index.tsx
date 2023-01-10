@@ -173,7 +173,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
               className="text-background-color hover:text-primary-600 dark:text-white dark:hover:text-primary-400"
               aria-label="all posts"
             >
-              All Posts &rarr;
+              Latest Posts &rarr;
             </Link>
           </div>
         )}
