@@ -10,7 +10,7 @@ const experienceData = [
     text2: `We build products and solutions with AI at it's core that help businesses automate and optimize business outcomes`,
   },
   {
-    title: 'SunSauna® Website',
+    title: 'Website',
     company: 'SunSauna®',
     location: 'Woodinville, WA',
     range: 'May 2014 - July 2014',
