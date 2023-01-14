@@ -90,7 +90,7 @@ export default function BlogListLayout({
                   }
                 ></div>
                 <article className="relative h-full w-full rounded-xl">
-                  <div className="bg-linen flex h-full w-full flex-col justify-between rounded-xl p-5 dark:bg-background-color">
+                  <div className="flex h-full w-full flex-col justify-between rounded-xl bg-white p-5 dark:bg-background-color">
                     <div className="flex flex-col justify-between space-y-5 md:flex-row xl:col-span-3">
                       <div className="space-y-6">
                         <div>
