@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
 import { getGuestbook, createGuestbookEntry } from './api/guestbook'
@@ -5,7 +7,7 @@ import { useUser } from '@auth0/nextjs-auth0/client'
 import Login from '@/components/Login'
 
 export default function Guestbook() {
-  const [entries, setEntries] = useState([])
+  const [entries, setEntries] = useState([]) 
   const [name, setName] = useState('')
   const [message, setMessage] = useState('')
   const router = useRouter()
