@@ -1,3 +1,4 @@
+/*eslint-disable */
 export default async function fetcher<JSON = any>(
   input: RequestInfo,
   init?: RequestInit
@@ -5,3 +6,4 @@ export default async function fetcher<JSON = any>(
   const res = await fetch(input, init)
   return res.json()
 }
+/*eslint-enable */

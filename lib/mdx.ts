@@ -41,7 +41,7 @@ export function dateSortDesc(a: string, b: string) {
   if (a < b) return 1
   return 0
 }
-
+/*eslint-disable-next-line */
 export async function getFileBySlug<T>(
   type: 'authors' | 'blog' | 'snippets',
   slug: string | string[]
@@ -65,6 +65,7 @@ export async function getFileBySlug<T>(
     source,
     // mdx imports can be automatically source from the components directory
     cwd: path.join(root, 'components'),
+    /*eslint-disable-next-line */
     xdmOptions(options, frontmatter) {
       // this is the recommended way to add custom remark/rehype plugins:
       // The syntax might look weird, but it protects you in case we add/remove

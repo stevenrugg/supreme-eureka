@@ -1,0 +1,55 @@
+---
+title: Using react-typical to Make a Cool Typing Animation
+date: '2022-01-15'
+tags: ['typing animation', 'react typing', 'animation']
+draft: false
+summary: Using the npm package react-typical to make a really cool typing animation.
+readTime: '4 minute read'
+---
+
+The typing animation of the home page of this blog was made using `react-typical`, a typing animation react component
+provided by `npm`.
+
+## Installing react-typical
+
+Inside the root folder of your project open a terminal and type the following command:
+
+```shell
+npm install react-typical 
+```
+If you're having issues installing the package try using either using the `--unsafe-perm` or `--legacy-peer-deps` flags.
+In the components folder of your application or equivalent, its time to 
+make a Typical component. Create a new react function component like
+```javascript
+const Typical = props => {
+    return (
+  // typical logic here
+    )
+}
+export default Typical
+```
+Typical uses thre parameters when caling the `Typical()` method. 
+- `steps`
+- `loop`
+- `wrapper`
+
+They are called in order as follows
+
+```javascript
+
+const Typical = props => {
+  return (
+    // steps in an object with one list, after each word is an integer controlling the typing speed in ms.
+    steps={['WordOne', 1000, 'WordTwo', 1000, 'WordThree', 500]}
+    // Infinity or number of loops up to 2500
+    loop={Infinity}
+    // wrapper the method will use in the resulting html. Choices are H1-6, SPAN or P
+    wrapper='h1'
+  )
+}
+export default Typical
+```
+The result is a pretty slick typing animation that looks really cool. You can find the npm Typical package
+[here](https://www.npmjs.com/package/react-typical).
+
+
