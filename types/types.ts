@@ -29,6 +29,13 @@ export enum Form {
   Error,
 }
 
+export type Card = {
+  title: string,
+  description: string,
+  imgSrc: string,
+  href: string
+}
+
 export type FormState = {
   state: Form
   message?: string
