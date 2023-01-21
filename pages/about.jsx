@@ -6,16 +6,14 @@ import { AuthorFrontMatter } from 'types/AuthorFrontMatter'
 
 const DEFAULT_LAYOUT = 'AuthorLayout'
 
-// @ts-ignore
-export const getStaticProps: GetStaticProps<{
-  authorDetails: { mdxSource: string; frontMatter: AuthorFrontMatter }
-}> = async () => {
+
+export const getStaticProps = async () => {
   const authorDetails = await getFileBySlug<AuthorFrontMatter>('authors', ['default'])
   const { mdxSource, frontMatter } = authorDetails
   return { props: { authorDetails: { mdxSource, frontMatter } } }
 }
 
-export default function About({ authorDetails }: InferGetStaticPropsType<typeof getStaticProps>) {
+export default function About({ authorDetails }) {
   const { mdxSource, frontMatter } = authorDetails
 
   return (
