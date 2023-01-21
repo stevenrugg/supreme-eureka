@@ -1,4 +1,4 @@
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
+const withBundleAnalyzer = require('@/next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 
@@ -56,7 +56,7 @@ const securityHeaders = [
 /**
  * @type {import('next/dist/next-server/server/config').NextConfig}
  **/
-module.exports = withBundleAnalyzer({
+export default withBundleAnalyzer({
   reactStrictMode: true,
   pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
   eslint: {
