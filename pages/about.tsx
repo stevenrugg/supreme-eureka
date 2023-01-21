@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { MDXLayoutRenderer } from '@/components/MDXComponents'
 import { getFileBySlug } from '@/lib/mdx'
 import { GetStaticProps, InferGetStaticPropsType } from 'next'
@@ -5,7 +6,7 @@ import { AuthorFrontMatter } from 'types/AuthorFrontMatter'
 
 const DEFAULT_LAYOUT = 'AuthorLayout'
 
-// @ts-ignore @ts-nocheck
+// @ts-ignore
 export const getStaticProps: GetStaticProps<{
   authorDetails: { mdxSource: string; frontMatter: AuthorFrontMatter }
 }> = async () => {
@@ -14,7 +15,7 @@ export const getStaticProps: GetStaticProps<{
   return { props: { authorDetails: { mdxSource, frontMatter } } }
 }
 
-export function About({ authorDetails }: InferGetStaticPropsType<typeof getStaticProps>) {
+export default function About({ authorDetails }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { mdxSource, frontMatter } = authorDetails
 
   return (
@@ -25,3 +26,4 @@ export function About({ authorDetails }: InferGetStaticPropsType<typeof getStati
     />
   )
 }
+
