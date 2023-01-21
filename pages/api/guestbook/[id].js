@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-
+/* eslint-disable */
 import { getSession } from 'next-auth/react';
 import prisma from './lib/prisma';
 

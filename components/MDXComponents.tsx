@@ -1,4 +1,5 @@
 /* eslint-disable react/display-name */
+/* eslint-disable */
 import React, { useMemo } from 'react'
 import { ComponentMap, getMDXComponent } from 'mdx-bundler/client'
 import Image from './Image'

@@ -9,10 +9,14 @@ export default function FourZeroFour() {
         </h1>
       </div>
       <div className="max-w-md">
+        <h2>Whoa, Wait!</h2>
         <p className="mb-4 text-xl font-bold leading-normal md:text-2xl">
-          Sorry we couldn't find this page.
+          We couldn't find this page.
         </p>
-        <p className="mb-8">But dont worry, you can find plenty of other things on our homepage.</p>
+        <p className="mb-8">
+          There are tons reasons this might happen, but the URL has to do with most of them. Check
+          that URL!
+        </p>
         <Link href="/">
           <button className="focus:shadow-outline-blue inline rounded-lg border border-transparent bg-blue-600 px-4 py-2 text-sm font-medium leading-5 text-white shadow transition-colors duration-150 hover:bg-blue-700 focus:outline-none dark:hover:bg-blue-500">
             Back to homepage

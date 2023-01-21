@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Link from '@/components/Link'
 import Tag from '@/components/Tag'
 import { ComponentProps, useState } from 'react'

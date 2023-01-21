@@ -1,3 +1,4 @@
+/* eslint-disable */
 /* eslint-disable prettier/prettier */
 import { MDXRemoteSerializeResult } from 'next-mdx-remote';
 

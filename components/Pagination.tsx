@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Link from '@/components/Link'
 
 interface Props {

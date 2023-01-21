@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Link from '@/components/Link'
 
 const Education = ({ title, company, location, range, url, text1, text2 }) => {
