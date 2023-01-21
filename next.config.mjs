@@ -54,7 +54,7 @@ const securityHeaders = [
 ]
 
 /**
- * //@type {import('next/dist/next-server/server/config').NextConfig}
+ * @type {import('next').NextConfig}
  **/
 export default withBundleAnalyzer({
   reactStrictMode: true,
