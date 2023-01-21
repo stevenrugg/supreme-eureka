@@ -1,3 +1,5 @@
+/* eslint-disable-next-line @next/next/no-html-link-for-pages */
+/* eslint-disable */
 import Link from '@/components/Link'
 import Tag from '@/components/Tag'
 import { ComponentProps, useState } from 'react'
@@ -64,7 +66,7 @@ export default function SnippetsLayout({
             const { slug, date, title, summary, tags } = frontMatter
             return (
               <Link href={`/snippets/${slug}`} key={slug}>
-                <a className="w-full" aria-label={title}>
+                <Link className="w-full" aria-label={title}>
                   <div className="group w-full transform border-b border-gray-200 py-3 transition-all hover:scale-[1.02] dark:border-gray-700">
                     <div className="flex flex-col justify-between sm:flex-row sm:items-center">
                       <div className="flex items-center">
@@ -82,7 +84,7 @@ export default function SnippetsLayout({
                       </div>
                     </div>
                   </div>
-                </a>
+                </Link>
               </Link>
             )
           })}

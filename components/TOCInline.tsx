@@ -1,3 +1,4 @@
+// eslint-disable-next-line @next/next/no-html-link-for-pages
 import { Toc } from 'types/Toc'
 
 interface TOCInlineProps {
